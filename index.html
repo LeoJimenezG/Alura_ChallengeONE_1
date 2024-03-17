@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encryption/Decryption</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="title">
+            <img src="./imgs/alura_logo.png" class="alura_logo">
+            <h1>Alura Challenge ONE, 1: Encrypt/Decrypt Text</h1>
+        </div>  
+    </header>
+    <div class="container">
+        <div class="text">
+            <input class="text_entry" placeholder="Introduce a text here" type="text" required>
+            <hr>
+            <input class="text_result" placeholder="Here goes the result" type="text" disabled>
+            <button class="copy_button" onclick="fnCopy()">Copy</button>
+        </div>
+        <div class="information">
+            <img src="./imgs/inf.png">
+            <p class="info">Lower case letters only and no special characters</p>
+        </div>
+        <div class="buttons">
+            <button class="enc" onclick="fnEncrypt()">Encrypt</button>
+            <button class="dec" onclick="fnDecrypt()">Decrypt</button>
+        </div>
+    </div>
+    <footer>
+        <div class="p_info">
+            <h3>Leonardo Jiménez González</h3>
+            <div class="imgs">
+                <a href="https://www.linkedin.com/in/leo-jiménez-8a5b462ba" target="_blank"><img src="./imgs/logo_LIn.png"></a>
+                <a href="https://github.com/LeoJimenezG" target="_blank"><img src="./imgs/logo_Git.png"></a>
+            </div>    
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
